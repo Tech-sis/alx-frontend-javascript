@@ -1,4 +1,3 @@
-import returnHowManyArguments from './0x00-ES6_basic/4-rest-parameter.js';
+import signUpUser from "./0x01-ES6_promise/4-user-promise";
 
-console.log(returnHowManyArguments("one"));
-console.log(returnHowManyArguments("one", "two", 3, "4th"));
+console.log(signUpUser("Bob", "Dylan"));
