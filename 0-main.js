@@ -1,4 +1,3 @@
-import getResponseFromAPI from "./0x01-ES6_promise/0-promise";
+import getListStudents from "./0x03-ES6_data_manipulation/0-get_list_students";
 
-const response = getResponseFromAPI();
-console.log(response instanceof Promise);
+console.log(getListStudents());
