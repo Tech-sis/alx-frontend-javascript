@@ -1,5 +1,3 @@
-const hasValuesFromArray = (set, array) => {
-  const values = new Set(set);
-  return values.has(array);
-};
-export default hasValuesFromArray;
+export default function hasValuesFromArray(set, arr) {
+  return arr.reduce((prev, curr) => prev && set.has(curr), true);
+}
