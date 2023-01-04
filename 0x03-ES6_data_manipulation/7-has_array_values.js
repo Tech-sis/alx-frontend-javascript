@@ -1,2 +1,5 @@
-const hasValuesFromArray = () => {}
-export default hasValuesFromArray
+const hasValuesFromArray = (set, array) => {
+  const values = new Set(set);
+  return values.has(array);
+};
+export default hasValuesFromArray;
